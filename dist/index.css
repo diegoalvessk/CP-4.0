@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 110), rgb(17, 54, 71));
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2vh;
+    border-radius: 2vh;
+    width: 40vw;
+    color: white;
+}
+
+fieldset {
+    border: 0.2vh solid black;
+}
+
+legend {
+    border: 0.2vh solid black;
+    padding: 1vh;
+    text-align: center;
+    background-color: black;
+    border-radius: 1.5vh;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 0.1vh solid white;
+    outline: none;
+    color: white;
+    font-size: 1.7vh;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.horario {
+    border: none;
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(20, 147, 110), rgb(17, 54, 71));
+    color: white;
+    width: 100%;
+    padding: 7px;
+}
+
+
+.inputs:focus {
+    border: 0.2vh solid purple;
+    transition: .3s;
+}
+
+
+
+
